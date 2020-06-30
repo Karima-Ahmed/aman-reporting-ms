@@ -99,6 +99,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+
         <dependency>
             <groupId>io.github.jhipster</groupId>
             <artifactId>jhipster-framework</artifactId>
@@ -339,6 +346,21 @@
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>6.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.haoxiaoyong.ocr</groupId>
+            <artifactId>baidu-ocr</artifactId>
+            <version>v1.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.haoxiaoyong.ocr</groupId>
+            <artifactId>baidu-ocr</artifactId>
+            <version>v1.1.0</version>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
     </dependencies>

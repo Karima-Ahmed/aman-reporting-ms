@@ -1,0 +1,35 @@
+/**
+* Employee (employee) entity.
+*/
+entity Employee (employee) {
+    firstName String 
+    lastName String
+    salary Double
+}
+
+/**
+* Email (email) entity.
+*/
+entity Email (email) {
+    address String  
+}
+
+relationship ManyToOne {
+	Email {employee} to Employee
+}
+
+
+dto all with mapstruct
+
+service all with serviceImpl
+
+filter all
+
+paginate all with pagination
+
+microservice all with reporting
+
+clientRootFolder all with aman-reporting-ms
+
+
+
